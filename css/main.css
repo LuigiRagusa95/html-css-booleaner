@@ -17,6 +17,11 @@ a {
     text-decoration: none;
 }
 
+#app {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* UTILITY CLASS */
 .logo {
     width: 120px;
@@ -27,11 +32,11 @@ a {
     background-color: #ffff00;
 }
 
-/* CLASSES */
-#app {
-    width: 80%;
-    margin: 0 auto;
+.tr-blue {
+    background-color: #b1e5f2;
 }
+
+/* HEADER */
 
 .header {
     padding: 32px 8px 4px;
@@ -39,11 +44,13 @@ a {
     background-size: 280px auto;
 }
 
+/* MAIN */
 .main {
     height: 100%;
     background-color: #ffffff;
 }
 
+/* ARTICLE */
 .article {
     width: 100%;
     padding: 0 8px;
@@ -67,4 +74,25 @@ a {
 
 .article-paragraph {
     margin: 24px 0;
+}
+
+/* LIST */
+.list {
+    margin: 24px 0;
+}
+
+/* TABLE */
+
+table {
+    width: 100%;
+    margin: 16px 0;
+    text-align: left;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead {
+    width: 100%;
+    color: #ffffff;
+    background-color: #20a9e5;
 }

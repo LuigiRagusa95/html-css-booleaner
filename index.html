@@ -8,96 +8,61 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
-        <div id="app">
-            <header class="header">
-                <img class="logo" src="./img/logo.svg" alt="logo" />
+        <div class="page">
+            <header class="page__header">
+                <img src="./img/logo.svg" class="page__header-logo" alt="logo" />
             </header>
 
-            <main>
+            <main class="page__content">
                 <div class="article">
-                    <div class="title margin-16">
-                        <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Barners-Lee</h1>
-                        <div class="credits">
+                    <div class="article__title">
+                        <h1 class="article__title-h1">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
+                        <div class="article__title-details">
                             <span>
-                                <strong>Scritto da</strong>
-                                <a href="#">The Booleaner</a>
+                                Scritto da:
+                                <a href="#">Tim Booleaner</a>
                             </span>
-                            <br />
-                            <span class="text-sm">il 10/10/2020</span>
+                            <span>il 10/10/2020</span>
                         </div>
                     </div>
 
-                    <div class="gallery margin-16">
-                        <img src="./img/tim-1.jpg" alt="tim-1" />
-                        <img src="./img/tim-2.jpg" alt="tim-2" />
-                        <br />
-                        <div class="text-sm">
-                            <span>1st Photo: John S. and L. Knight Foundation, By Scott Henrichsen</span>
+                    <div class="article__gallery">
+                        <img src="./img/tim-1.jpg" class="article__gallery-image" />
+                        <img src="./img/tim-2.jpg" class="article__gallery-image" />
+                        <div class="article__gallery-description">
+                            <span>1st Photo: John S. and James L.Knight Foundation,by Scott Henrichsen</span>
                             <br />
-                            <span>2st Photo: Wikimedia, By Paul Clarke</span>
+                            <span>2st Photo: Wikimedia, by Paul Clarke</span>
                         </div>
                     </div>
 
-                    <p class="paragraph margin-16">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        <span class="yellow">
-                            Ullam doloremque eum repudiandae consequatur accusamus eligendi consectetur nostrum ad deserunt maiores aspernatur provident pariatur, laudantium sunt incidunt excepturi blanditiis est ratione
-                            delectus maxime dolorem!
-                        </span>
-                        Cupiditate excepturi dicta molestiae praesentium. Atque, eius incidunt? Dignissimos molestias a perspiciatis architecto unde? Neque, ex cumque officia molestias excepturi, incidunt culpa nobis,
-                        fugit sapiente sint nihil voluptatem doloremque. Aperiam voluptatem magnam tenetur totam ea neque quidem aliquam dolores ducimus libero, praesentium excepturi ratione vel minus ipsa.
+                    <p class="article__pharagraph">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora incidunt alias quidem eos nemo magnam quisquam minus omnis architecto illum obcaecati in deleniti voluptatum numquam, perferendis
+                        corporis doloribus, ipsam, repudiandae a accusantium voluptas quod voluptatibus itaque. Ad earum eos illum minima quod quos nostrum ab cumque officiis, consequuntur provident nam magni repudiandae
+                        molestiae cupiditate tempora! Et repudiandae enim sit ratione officiis magni, voluptatum dolores ullam quasi rerum recusandae aspernatur voluptatibus, voluptatem hic reiciendis dolor repellendus
+                        vitae cum, magnam quod sint!
                     </p>
 
-                    <ul class="list margin-16">
-                        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis libero odit consequuntur accusantium? Molestiae eaque error aperiam quae, quasi cumque?</li>
-                        <li>Eos dignissimos similique provident aliquam ex illo sit accusantium, unde hic pariatur odio, necessitatibus sint? Quisquam labore fugit molestiae fugiat.</li>
-                        <li>Animi dolores voluptates ipsa earum natus non, labore rerum, vitae similique sed omnis ipsam tenetur unde totam culpa vel blanditiis!</li>
+                    <ul class="article__list">
+                        <li class="article__list-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, ea quam animi eum eius nobis veritatis eos ullam dolor hic.</li>
+                        <li class="article__list-item">Harum minus adipisci dolorem quam ducimus, repellat quos modi cupiditate aliquam est impedit eaque, facere saepe alias aspernatur rerum porro.</li>
+                        <li class="article__list-item">Dignissimos, quo incidunt optio autem est commodi in asperiores molestiae, natus iure placeat numquam illum quam praesentium, deleniti voluptates repudiandae?</li>
                     </ul>
 
-                    <table class="table margin-16">
-                        <thead>
-                            <tr>
-                                <th>Lorem, ipsum dolor</th>
-                                <th>Lorem, ipsum dolor</th>
-                                <th>Lorem, ipsum dolor</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="blue">
-                                <td>Lorem, ipsum dolor</td>
-                                <td>Lorem, ipsum dolor</td>
-                                <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa modi quaerat deleniti quam eveniet consectetur doloribus vero molestias optio consequuntur.</td>
-                            </tr>
-                            <tr>
-                                <td>Lorem, ipsum dolor</td>
-                                <td>Lorem, ipsum dolor</td>
-                                <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum illo molestiae tempora reprehenderit quis assumenda reiciendis incidunt deleniti sint earum?</td>
-                            </tr>
-                            <tr class="blue">
-                                <td>Lorem, ipsum dolor</td>
-                                <td>Lorem, ipsum dolor</td>
-                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ipsum adipisci architecto distinctio cumque numquam at officiis atque necessitatibus sapiente!</td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-                    <p class="paragraph margin-16">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        <span class="yellow">
-                            Ullam doloremque eum repudiandae consequatur accusamus eligendi consectetur nostrum ad deserunt maiores aspernatur provident pariatur, laudantium sunt incidunt excepturi blanditiis est ratione
-                            delectus maxime dolorem!
-                        </span>
-                        Cupiditate excepturi dicta molestiae praesentium. Atque, eius incidunt? Dignissimos molestias a perspiciatis architecto unde? Neque, ex cumque officia molestias excepturi, incidunt culpa nobis,
-                        fugit sapiente sint nihil voluptatem doloremque. Aperiam voluptatem magnam tenetur totam ea neque quidem aliquam dolores ducimus libero, praesentium excepturi ratione vel minus ipsa.
+                    <p class="article__pharagraph">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora incidunt alias quidem eos nemo magnam quisquam minus omnis architecto illum obcaecati in deleniti voluptatum numquam, perferendis
+                        corporis doloribus, ipsam, repudiandae a accusantium voluptas quod voluptatibus itaque. Ad earum eos illum minima quod quos nostrum ab cumque officiis, consequuntur provident nam magni repudiandae
+                        molestiae cupiditate tempora! Et repudiandae enim sit ratione officiis magni, voluptatum dolores ullam quasi rerum recusandae aspernatur voluptatibus, voluptatem hic reiciendis dolor repellendus
+                        vitae cum, magnam quod sint!
                     </p>
                 </div>
             </main>
 
-            <footer class="footer margin-16">
-                <h3 class="margin-16">Potrebbe interessarti</h3>
-                <img src="./img/graph.jpg" alt="graph" />
+            <footer class="page__footer">
+                <h3 class="page__footer-title">Potrebbero interessarti</h3>
+                <img src="./img/monitor.jpg" alt="monitor" class="page__footer-image" />
                 <br />
-                <img src="./img/monitor.jpg" alt="monitor" />
+                <img src="./img/graph.jpg" alt="graph" class="page__footer-image" />
             </footer>
         </div>
     </body>

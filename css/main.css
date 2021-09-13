@@ -12,5 +12,19 @@ body {
 }
 
 /* UTILITY CLASS */
+.logo {
+    width: 120px;
+    height: auto;
+}
 
 /* CLASSES */
+#app {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 32px 8px 4px;
+    background: #4ea0ff url(../img/pattern.png) repeat fixed;
+    background-size: 280px auto;
+}

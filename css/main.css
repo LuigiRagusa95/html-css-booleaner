@@ -36,7 +36,6 @@ li {
 
 table {
     width: 100%;
-    margin: 24px 0;
     text-align: left;
     table-layout: fixed;
     border-collapse: collapse;
@@ -57,8 +56,12 @@ thead {
     background-color: #b1e5f2;
 }
 
-.small-text {
+.text-sm {
     font-size: 14px;
+}
+
+.margin-16 {
+    margin: 16px 0;
 }
 
 /* COMPONENT */
@@ -77,14 +80,8 @@ thead {
     height: auto;
 }
 
-.credits {
+.credits,
+.footer {
     color: grey;
-}
-
-.gallery {
-    margin: 24px 0;
-}
-
-.paragraph {
-    margin: 24px 0;
+    margin-top: 0;
 }

@@ -13,6 +13,7 @@ body {
 }
 
 a {
+    color: #4ea0ff;
     text-decoration: none;
 }
 
@@ -41,4 +42,21 @@ a {
 
 .article {
     width: 100%;
+    padding: 0 8px;
+}
+
+.article-title {
+    margin-top: 8px;
+    font: bold 32px/40px 'Times New Roman';
+}
+
+.article-credits {
+    color: grey;
+    font: 800 14px/24px;
+    margin-bottom: 16px;
+}
+
+.article-gallery {
+    display: block;
+    font-size: 14px;
 }

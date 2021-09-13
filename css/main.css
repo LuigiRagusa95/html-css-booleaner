@@ -17,6 +17,11 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
 header {
     padding: 48px 8px 0;
 }
@@ -33,6 +38,10 @@ main {
 
 .blue {
     background-color: #b1e5f2;
+}
+
+.small-text {
+    font-size: 14px;
 }
 
 /* COMPONENT */
@@ -53,4 +62,12 @@ main {
 
 .credits {
     color: grey;
+}
+
+.gallery {
+    margin: 16px 0;
+}
+
+.paragraph {
+    margin: 16px 0;
 }

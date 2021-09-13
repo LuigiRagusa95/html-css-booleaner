@@ -1,0 +1,111 @@
+/* Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-position: inside;
+}
+
+a {
+    color: #4ea0ff;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Times New Roman';
+}
+
+.page {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.page header {
+    padding: 56px 8px 0;
+    background: #4ea0ff url(../img/pattern.png) repeat fixed;
+    background-size: 380px auto;
+}
+
+.page header img {
+    width: 140px;
+    height: auto;
+}
+
+.page main .title {
+    margin: 16px 0;
+}
+
+.page main .title h1 {
+    font: 600 32px/40px 'Times New Roman';
+}
+
+.page main .title p {
+    color: grey;
+    line-height: 24px;
+}
+
+.page main .title span {
+    color: grey;
+    font-size: 14px;
+}
+
+.page main .gallery {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.page main .paragraph {
+    margin-bottom: 16px;
+}
+
+.page main .paragraph__highlight {
+    background: #ffff00;
+}
+
+.page main .list {
+    margin-bottom: 16px;
+}
+
+.page main .table {
+    width: 100%;
+    text-align: left;
+    table-layout: fixed;
+    margin-bottom: 16px;
+    border-collapse: collapse;
+}
+
+.page main .table thead {
+    color: #ffffff;
+    background: #20a9e5;
+}
+
+.page main .table tbody tr:nth-child(odd) {
+    background: #b1e5f2;
+}
+
+.page footer {
+    margin-bottom: 16px;
+}
+
+.page footer h3 {
+    color: gray;
+    margin-bottom: 8px;
+}
+
+.page footer .card {
+    padding: 4px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    position: relative;
+}
+
+.page footer .card span {
+    top: 16px;
+    left: 16px;
+    position: absolute;
+}
